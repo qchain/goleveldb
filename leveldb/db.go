@@ -17,14 +17,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/journal"
-	"github.com/btcsuite/goleveldb/leveldb/memdb"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
-	"github.com/btcsuite/goleveldb/leveldb/table"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/qchain/goleveldb/leveldb/errors"
+	"github.com/qchain/goleveldb/leveldb/iterator"
+	"github.com/qchain/goleveldb/leveldb/journal"
+	"github.com/qchain/goleveldb/leveldb/memdb"
+	"github.com/qchain/goleveldb/leveldb/opt"
+	"github.com/qchain/goleveldb/leveldb/storage"
+	"github.com/qchain/goleveldb/leveldb/table"
+	"github.com/qchain/goleveldb/leveldb/util"
 )
 
 // DB is a LevelDB database.

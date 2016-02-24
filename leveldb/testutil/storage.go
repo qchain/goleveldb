@@ -19,8 +19,8 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/btcsuite/goleveldb/leveldb/storage"
-	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/qchain/goleveldb/leveldb/storage"
+	"github.com/qchain/goleveldb/leveldb/util"
 )
 
 var (

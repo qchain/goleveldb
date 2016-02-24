@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/btcsuite/goleveldb/leveldb/journal"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"github.com/qchain/goleveldb/leveldb/journal"
+	"github.com/qchain/goleveldb/leveldb/storage"
 )
 
 // Logging.

@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/goleveldb/leveldb/journal"
-	"github.com/btcsuite/goleveldb/leveldb/memdb"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"github.com/qchain/goleveldb/leveldb/journal"
+	"github.com/qchain/goleveldb/leveldb/memdb"
+	"github.com/qchain/goleveldb/leveldb/storage"
 )
 
 type memDB struct {
